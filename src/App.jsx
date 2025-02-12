@@ -16,7 +16,7 @@ function App() {
     if (isCardOpen) {
       const timer = setTimeout(() => {
         setShowConfetti(false);
-      }, 8000); // Cancela el confetti después de 8 segundos
+      }, 5000); // Cancela el confetti después de 8 segundos
 
       return () => clearTimeout(timer);
     }
