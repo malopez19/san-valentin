@@ -1,5 +1,5 @@
 import ValentineCard from "./components/ValentineCard";
-import SliderComponent from "./components/Slider";
+import SliderComponent from "./components/SliderComponent";
 import { useState } from "react";
 import VintageLetter from "./components/VintageLetter";
 
@@ -18,7 +18,7 @@ function App() {
             {!isCardOpen ? (
               <>
                 <h1 className="text-4xl font-light text-red-400 mb-12">
-                  Feliz 14 de febrero mi <a className="underline decoration-red-400 uppercase">Morenita ❤</a> 
+                  Feliz San Valentin mi <a className="underline decoration-red-400 uppercase">Morenita ❤</a> 
                 </h1>
                 <div className="flex flex-col items-center justify-center hover:cursor-pointer">
                   <ValentineCard setCardOpen={setCardOpen} />
